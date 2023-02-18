@@ -1,0 +1,97 @@
+
+
+::-webkit-scrollbar{
+  width: 0;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 1, 44); 
+  border-radius: 1.5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:rgb(201, 4, 4);  
+}
+
+.person_title{
+  width: 100%;
+  height: fit-content;
+  padding: 1rem;
+  background-color: rgb(1, 131, 81);
+  border-radius: 2rem 2rem 0 0;
+  color: white;
+  font-size: x-large;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.chatbox{
+  width: 30vw;
+  height: 85vh;
+  background-color: beige;
+  position: fixed;
+  right:33%;
+  bottom: 0;
+  border-radius: 2rem 2rem 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.chatduct{
+  margin-bottom: 2.5rem ;
+  scroll-behavior: smooth;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* flex-direction: column; */
+}
+.chat-input-pannel{
+ 
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  background-color: gray;
+
+}
+.to{
+ margin-left: auto;
+  width: fit-content;
+  max-width: 75%;
+  word-wrap: break-word;
+  background-color: rgb(2, 172, 107);
+  color: white;
+  border-radius:  2rem 2rem 0 2rem;
+ margin-top: 0.75rem;
+ margin-bottom: 0.75rem;
+  padding:  2% 5% 2% 5%;
+}
+.from{
+  margin-right: auto;
+  width: fit-content;
+  max-width: 75%;
+  word-wrap: break-word;
+  background-color: rgb(55, 56, 56);
+  color: white;
+  border-radius:  2rem 2rem 2rem 0;
+  padding: 2% 5% 2% 5%;
+  margin-top: 0.75rem;
+ margin-bottom: 0.75rem;
+}
+
+.text-input{
+  
+  max-height: 8vh;
+  resize: vertical;
+}
